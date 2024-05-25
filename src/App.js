@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {ShowInfo, ShowPhoto, ShowBio} from './Components/personInfo'
+import { ShowTeamInfo, Achievment, AboutTeam } from './Components/football';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ShowInfo></ShowInfo>
+      <ShowPhoto></ShowPhoto>
+      <ShowBio></ShowBio> */}
+
+      <ShowTeamInfo></ShowTeamInfo>
+      <Achievment></Achievment>
+      <AboutTeam></AboutTeam>
     </div>
   );
 }
