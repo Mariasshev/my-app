@@ -1,5 +1,5 @@
 import React from 'react';
-const team = {
+const team1 = {
     name: "Динамо Киев",
     city: "Киев",
     date: "1927г",
@@ -10,7 +10,7 @@ const team = {
     imageH: 250
 };
 
-export function ShowTeamInfo() {
+export function ShowTeamInfo(props) {
     return (
         <>
             <p><span className='main'>Название:</span>  {team.name}</p>
@@ -50,3 +50,17 @@ export function AboutTeam() {
         </>
     );
 }
+
+const ListItem = props => {
+    const value = props.value;
+    return 
+    
+  }
+  
+  export const List = ({ items }) => {
+    return (
+      <ul>{
+        items.map(item => <ListItem key={item.toString()} value={item}/>)
+      }</ul>
+    );
+  }
