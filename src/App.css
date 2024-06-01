@@ -6,12 +6,10 @@
 {
   font-weight:500;
 }
-.achieve
+.container
 {
-  padding: 20px;
-  border: 1px solid blue;
-  text-align: center;
-  margin-top: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid blue;
 }
 .team
 {
